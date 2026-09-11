@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AiGourmet — Fine Food Intelligence</title>
+<title>MyGourmet — Fine Food Intelligence</title>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
@@ -53,23 +53,7 @@ header{padding:30px 20px 18px;text-align:center;background:linear-gradient(180de
 .ins-btn:hover{border-color:var(--gold);color:var(--gold-light);}
 
 /* PILLS */
-.pill-row{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:16px;}
-.pill{padding:6px 12px;border-radius:6px;border:1px solid var(--border);background:var(--card);color:var(--muted);font-size:.76rem;cursor:pointer;transition:all .2s;user-select:none;font-family:'Inter',sans-serif;}
-.pill.sel{background:var(--gold-dim);border-color:var(--gold);color:var(--gold-light);}
-
-/* GEN BUTTON */
-.gen-btn{width:100%;padding:15px;background:linear-gradient(135deg,#6B4800,#C8960C,#F0C040,#C8960C,#6B4800);background-size:200% auto;border:none;border-radius:var(--r);color:#000;font-size:.85rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;cursor:pointer;transition:all .35s;margin-top:4px;font-family:'Inter',sans-serif;}
-.gen-btn:hover{background-position:right center;transform:translateY(-1px);box-shadow:0 8px 32px rgba(200,150,12,.35);}
-.gen-btn:disabled{opacity:.45;cursor:not-allowed;transform:none;box-shadow:none;}
-
-/* LOADING */
-.loading{text-align:center;padding:44px 20px;display:none;}
-.loading.on{display:block;}
-.spinner{width:36px;height:36px;border:2px solid var(--border);border-top-color:var(--gold);border-radius:50%;animation:spin .8s linear infinite;margin:0 auto 14px;}
-@keyframes spin{to{transform:rotate(360deg);}}
-.load-txt{color:var(--muted);font-size:.82rem;font-style:italic;}
-
-/* ERROR */
+.pill-row{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:16px;}/* ERROR */
 .err{background:rgba(192,80,64,.1);border:1px solid rgba(192,80,64,.3);border-radius:var(--rs);padding:12px 15px;font-size:.82rem;color:#E07060;margin-top:14px;display:none;}
 .err.on{display:block;}
 
